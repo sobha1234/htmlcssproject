@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div+h2{
+            color: yellow;
+            background-color: violet;
+         }
+         h2+h2{
+             color:turquoise;
+             background-color: wheat ;
+         }
+         div~h2{
+             color:tomato;
+             background-color: yellowgreen;
+         }
+         div~h1{
+             color:thistle;
+             background-color: whitesmoke;
+         }
+         body>h2{
+             color:teal;
+             background-color: slateblue;
+         }
+         body>div{
+             color:tan;
+             background-color: salmon;
+         }
+         body>section{
+             color:seagreen;
+             background-color: springgreen;
+         }
+        
+    </style>
+</head>
+<body>
+    <div>div 1</div>
+    <h2>1st heading2</h2>
+    <h2>2nd heading 2</h2>
+    <section>
+        <h2>section  heading</h2>
+        <h1>section heading</h1>
+    </section>
+    <div>div2</div>
+    <h2>3rd heading 2</h2>
+    <section>
+        <h2>section heading</h2>
+    </section>
+</body>
+</html>
